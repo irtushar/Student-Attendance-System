@@ -7,7 +7,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-	    System.out.println("Welcome to student management system");
+	    System.out.println("Welcome to student attendence system");
 	
      	Scanner scanner = new Scanner (System.in);	
 	    ArrayList <Student> students = new ArrayList<Student>();
