@@ -28,10 +28,7 @@ public class StudentOperation
 		students.add(student);
 		System.out.println("One student is inserted. Now total student are:"+ students.size()+"\n");
 	
-    }
-	
-	
-	
+        }
 	
 	public void searchbyId(ArrayList <Student> students)
 	{
@@ -49,7 +46,6 @@ public class StudentOperation
 		System.out.println("No student found.");
 	}
 	
-	
 	public void searchByYear(ArrayList <Student> students)
 	{
 		System.out.printf("Please Enter A Valid Year: ");
@@ -66,8 +62,6 @@ public class StudentOperation
 		}
 	}
 	
-	
-
 	public void delete(ArrayList <Student> students)
 	{
 		System.out.printf("Please Enter A Valid Id: ");
@@ -85,15 +79,12 @@ public class StudentOperation
 		System.out.println("No student found.");
 	}
 	
-	
-	
 	public void display(Student students)
-    {
+        {
 		System.out.println("Name: "+ students.name +"\n");
 		System.out.println("Id: "+ students.id+"\n");
 		System.out.println("Mobile: "+ students.mobile+"\n");
 		System.out.println("Year: "+ students.year+"\n");
 		System.out.println();
 	}
-	
 }
