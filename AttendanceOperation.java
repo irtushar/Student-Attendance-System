@@ -35,11 +35,11 @@ public class AttendanceOperation
 		  
 		  for(StudentAttendance attendance : attendances ) 
 		  {
-			  if(title.equalsIgnoreCase(attendance.title) == true)
+			  if(attendance.title.equalsIgnoreCase(attendance.title) == true)
 			 {
 				 this.displayAttendance(attendance); 
 				 return; //
-		     }	  
+		         }	  
 		  }
 	 }
 	
