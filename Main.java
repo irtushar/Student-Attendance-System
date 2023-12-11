@@ -8,8 +8,8 @@ public class Main
 	public static void main(String[] args)
 	{
 	    System.out.println("Welcome to student attendence system");
-	
-     	Scanner scanner = new Scanner (System.in);	
+     	    Scanner scanner = new Scanner (System.in);	
+		
 	    ArrayList <Student> students = new ArrayList<Student>();
 	    ArrayList <StudentAttendance> attendance = new ArrayList<StudentAttendance>();
 	    StudentOperation operation = new StudentOperation();
@@ -58,5 +58,5 @@ public class Main
 		    }
 	  }	
 	      System.out.println("Thank you for using our system");
-   }
+       }
 }
