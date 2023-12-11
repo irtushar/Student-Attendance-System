@@ -11,7 +11,7 @@ public class Student
 	{
 		this.name = name;
 		this.mobile = mobile;
-	    this.id = id;
-	    this.year = year;
+	        this.id = id;
+	        this.year = year;
 	}
 }
